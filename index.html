@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronClash</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./IMAGENS/Copilot_20250816_044747-removebg-preview.png">
+    <style>
+        body,
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            position: relative;
+            z-index: 1;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            color: white;
+        }
+
+        .mascara {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            background: linear-gradient(109deg, rgba(10, 12, 16, 0.7) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.7) 85%);
+            z-index: 0;
+        }
+
+        .foto-diminuida {
+            width: 300px;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .base {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 1 1 300px;
+            margin: 1rem;
+            padding: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .base {
+                flex-direction: column;
+            }
+
+            .card {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="./IMAGENS/fuNDO.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+
+        <section>
+            <a href="#">
+                <img src="./IMAGENS/Copilot_20250816_044747-removebg-preview.png" alt="IronClash">
+            </a>
+            <nav class="nav-container">
+                <a href="#" class="menu-item">Home</a>
+
+                <a href="#" class="menu-item" target="_blank">Lutas</a>
+                <a href="#" class="menu-item" target="_blank">Jogo</a>
+                <a href="#" class="menu-item" target="_blank">Envolvidos</a><a href="#" class="menu-item">Sobre o
+                    Projeto </a>
+
+            </nav>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="mao">
+            <div class="logo-vira">
+
+                <h3 class="h3">IronClash🤖</h3>
+                <div class="texto-e-imagem">
+                    <div class="texto">
+                        <p>Projeto integrador, site feito em HTML, CSS e JAVASCRIPT. </p>
+                        <H1>Nosso projeto e composto por quatro etapas....</H1>
+                        <p></p>
+                        <p>
+                            Etapa 1: Desenvolvimento do site e automoção.
+                        </p>
+                        <p>
+                            Etapa 2: Aprimoramento com uma interação.
+                        </p>
+
+                        <p> Etapa 3: Montagens de robos com sucata, arduino e programão em C
+
+                        </p>
+
+                        <P> Etapa 4: AGUARDEM..........</P>
+                    </div>
+                </div>
+
+            </div>
+            <DIv class="PARALELEPIPIDO"> <img src="./IMAGENS/Copilot_20250816_044747-removebg-preview.png"
+                    alt="iMAGEM DO PROJETO"></DIv>
+        </section>
+        <section class="pe">
+            <h2 class="nos"><span>🛠️SOBRE </span> <span>O</span> PROJETO</h2>
+            </h2>
+            <div class="principal">
+                <div class="sobre-imag">
+                    <img src="./IMAGENS/ROBO T.png" class="foto-diminuidaaa" alt="FOTO DO PROJETO">
+                </div>
+                <div class="texto">
+
+                    <h3> Quatros Robos um vencedor</h3>
+
+                    <p>
+                        Nosso projeto integrador é uma jornada que une criatividade, tecnologia e trabalho em equipe. O
+                        objetivo inicial era criar uma simples landing page para demonstrar nossos conhecimentos em
+                        HTML, CSS e JavaScript. Mas o que começou como uma ideia modesta evoluiu para algo muito maior.
+                        Hoje, o Projeto1 é composto por quatro etapas:
+                        Desenvolvimento do site com automação e estrutura responsiva.
+                        Aprimoramento com interatividade, tornando a navegação mais dinâmica.
+                        Montagem de robôs funcionais com sucata, Arduino e programação em C.
+                        Interação com um jogo real, onde os robôs competem em desafios físicos e virtuais.
+                        Criamos quatro robôs únicos, cada um com características próprias, que disputam entre si para
+                        provar qual é o mais poderoso. Essa competição combina o melhor do mundo software e hardware,
+                        com movimentos reais e controle digital.
+                        Nosso site não é apenas uma vitrine — é uma experiência interativa que conecta o usuário ao
+                        universo da robótica de forma prática e divertida.</p>
+                </div>
+            </div>
+        </section>
+
+         </div>
+
+            <h3 class="noss"><span>Envolvidos </span> NO <SPan> PROJETO</SPan></h3>
+
+            <div class="doze">
+                <div class="card">
+                    <span class="small-text">Aluno</span>
+                    <span class="title">Felipe Possa</span>
+                    <span class="desc">Curso: Ciencia da computação.</span>
+
+
+                </div>
+
+                <div class="card">
+                    <span class="small-text">Aluno</span>
+                    <span class="title">Adryan Ferreira</span>
+                    <span class="desc">Curso: Ciencia da computação.</span>
+
+
+                </div>
+            </div>
+            <div class=" treze">
+
+                <div class="card">
+                    <span class="small-text">Aluno</span>
+                    <span class="title">Mateus Matins</span>
+                    <span class="desc">Curso: Ciencia da computação.</span>
+                </div>
+            </div>
+            <div class="quatorze">
+                <div class="card">
+                    <span class="small-text">Aluno</span>
+                    <span class="title">Nome do aluno</span>
+                    <span class="desc">Curso: Ciencia da computação.</span>
+                </div>
+                <div class="card">
+                    <span class="small-text">Professor</span>
+                    <span class="title">Nome do professor</span>
+                    <span class="desc">Curso: COMENTARIOS</span>
+                </div>
+            </div>
+            </div>
+            </a>
+            </div>
+            </div>
+
+        <section class="dene">
+            <div class="cardd">
+                <h2 class="nos"><span>🛠️🤖COMPETIÇÃO</span> DE ROBOS</h2>
+                <p>1. COMENTARIOS.</p>
+                <p>2. COMENTARIOS.</p>
+                <p>3. COMENTARIOS.</p>
+                <p>4. COMENTARIOS.</p>
+                <p>5. COMENTARIOS.</p>
+                <p>6. COMENTARIOS.</p>
+
+
+
+            </div>
+        </section>
+
+
+        <section>
+
+
+
+            </div>
+            </a>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <SECtion>
+            <div class="modal">
+                <h3 class="noss">ROBOS <span>PARTICIPANTES</span></h3>
+            </div>
+        </SECtion>
+        <SEction class="tudo">
+            <div class="cards-container">
+                <div class="parent">
+                    <div class="card3D">
+                        <div class="content-box">
+                            <h1>Competidor:</h1>
+
+                            <span class="card-title"> ROBO Q</span>
+
+                        </div>
+                        <div class="date-box">
+                            <span class="month"><img src="./IMAGENS/ROBO Q.png" alt="Roboq"></span>
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="parent">
+                    <div class="card3D">
+                        <div class="content-box">
+                            <span class="card-title">NOME DO ROBO</span>
+                            <p class="card-content">DO QUE É FEITO</p>
+                            <span class="see-more">QUEM FEZ</span>
+                        </div>
+                        <div class="date-box">
+                            <span class="month">FOTO</span>
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-container">
+
+                    <div class="parent">
+                        <div class="card3D">
+                            <div class="content-box">
+                                <span class="card-title">NOME DO ROBO</span>
+                                <p class="card-content">DO QUE É FEITO</p>
+                                <span class="see-more">QUEM FEZ</span>
+                            </div>
+                            <div class="date-box">
+                                <span class="month">FOTO</span>
+                                <span class="date"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="parent">
+                        <div class="card3D">
+                            <div class="content-box">
+                                <span class="card-title">NOME DO ROBO</span>
+                                <p class="card-content">DO QUE É FEITO</p>
+                                <span class="see-more">QUEM FEZ</span>
+                            </div>
+                            <div class="date-box">
+                                <span class="month">FOTO</span>
+                                <span class="date"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="modal">
+                <h3 class="noss"><span>Ficha </span> Tecnica</h3>
+            </div>
+
+
+            <div class="cards-container">
+                <div class="robo-card">
+                    <h3>RoboX</h3>
+                    <p>Feito com sucata e Arduino</p>
+                    <p>Criado por Felipe</p>
+                </div>
+                <div class="robo-card">
+                    <h3>RoboY</h3>
+                    <p>Feito com motores e sensores</p>
+                    <p>Criado por Adryan</p>
+                </div>
+                <div class="robo-card">
+                    <h3>RoboZ</h3>
+                    <p>Feito com peças recicladas</p>
+                    <p>Criado por Mateus</p>
+                </div>
+                <div class="robo-card">
+                    <h3>RoboW</h3>
+                    <p>Feito com sucata e LEDs</p>
+                    <p>Criado por Felipe</p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="modal">
+                <h3 class="noss"><span>CONSIDERAÇÕES </span> FINAIS</h3>
+            </div>
+
+
+            <div class="todos">
+                <div class="card">
+                    <span class="small-text">Felipe</span>
+                    <p> Muito bom fazer esse trabalho, consegui mostrar um pouco do que sabemos fazer e podemos fazer em
+                        equipe😍❤️👊.</p>
+                </div>
+                <div class="card">
+                    <span class="small-text">Adryan</span>
+                    <p>Comentario</p>
+                </div>
+                <div class="card">
+                    <span class="small-text">Mateus</span>
+                    <p>Comentario</p>
+                </div>
+                <div class="card">
+                    <span class="small-text">Nome aluno</span>
+                    <p>Comentario</p>
+                </div>
+                <div class="card">
+                    <span class="small-text">Prof: Fabio Bettio</span>
+                    <p>Comentario</p>
+                </div>
+
+
+            </div>
+
+
+
+        </SEction>
+
+
+
+
+
+
+        <section class="dene">
+            <div class="cardd">
+                <h2 class="nos"><span>🛠️🤖Memorial clash
+
+</div>
+                        <div class="recordar">
+                            <img src="./IMAGENS/foto2.jpeg" alt="inicio">
+                            <img src="./IMAGENS/foto1.jpeg" alt="inicio">
+                            <img src="./IMAGENS/foto3.jpeg" alt="inicio">
+                            <img src="./IMAGENS/foto4.jpeg" alt="inicio">
+                            <img src="./IMAGENS/foto5.jpeg" alt="inicio">
+                                                    
+                                              
+                        </div>
+
+            </div>
+        </section>
+
+
+        </a>
+        </div>
+        <div class="jogar">
+            <button>
+                Jogar ??
+            </button>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
