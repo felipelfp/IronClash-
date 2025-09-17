@@ -1,4 +1,3 @@
-// Carrossel automático da seção hero
 let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const indicators = document.querySelectorAll('.indicator');
